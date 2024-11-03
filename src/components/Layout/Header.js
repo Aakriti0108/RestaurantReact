@@ -3,7 +3,7 @@ import MealsImage from '../../assests/meals.jpg';
 import classes from './header.module.css';
 import HeaderCartButton from './HeaderCartButton'
 
-const Header = () =>{
+const Header = (props) =>{
     return (
         <>
           <header className={classes.header}>
